@@ -1,0 +1,364 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    background-image: url(./Assets/netflix-bgimg3.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: max(1400px, 100vw);
+    background-position: center center;
+    border-bottom: #333 solid 6px;
+    position: relative;
+    z-index: 1;
+}
+
+.black-shade {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+    height: 100%;
+
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+}
+
+.logo-div img {
+    width: 192px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-top: 1.5rem;
+}
+
+select {
+    line-height: 1.25rem;
+    padding-top: 0.375rem;
+    padding-right: calc(2.25rem + 0rem);
+    padding-bottom: 0.375rem;
+    padding-left: 1rem;
+    background: transparent;
+    color: white;
+    font-size: 0.97rem;
+    font-weight: bolder;
+}
+
+.btn-signin {
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-decoration: none;
+    border-width: 0.0625rem;
+    border-radius: calc(0.25rem - 0.0625rem);
+    background-color: red;
+    text-align: center;
+    padding: 6px;
+    cursor: pointer;
+    color: aliceblue;
+    margin-left: 25px;
+
+}
+
+.txt-div {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 10px;
+}
+
+.icon-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.txt-div span {
+    text-align: center;
+}
+
+.txt-div :nth-child(1) {
+    font-size: 3rem;
+    font-weight: 900;
+    font-family: Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    color: white;
+}
+
+.txt-div :nth-child(2) {
+    font-size: 1.98rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: 50;
+}
+
+.txt-div :nth-child(3) {
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.gmail {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 2rem;
+    justify-content: center;
+}
+
+.gmail input {
+    padding: 20px;
+    text-align: left;
+    width: 400px;
+    height: 56px;
+    background-color: transparent;
+    border: 0.4px solid #4a4f4f;
+}
+
+::placeholder {
+    font-size: 1rem;
+    color: #ffffff95;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+button {
+    appearance: none;
+    margin: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+    border: 0px;
+    cursor: pointer;
+    width: auto;
+    font-size: 1.5rem;
+    font-weight: 500;
+    min-height: 3.5rem;
+    padding: 0.6rem 1.5rem;
+    padding-top: 2px;
+    border-radius: 0.25rem;
+    background: rgb(229, 9, 20);
+    color: rgb(255, 255, 255);
+}
+
+.parent-div {
+    overflow: hidden;
+    width: 100%;
+    height: 30rem;
+    border-bottom: #333 solid 6px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.parent-div .text {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+.text span {
+    /* text-align: center; */
+}
+
+.text :nth-child(1) {
+    font-size: 48px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+
+.text :nth-child(2) {
+    font-size: 24px;
+    color: white;
+    margin-top: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+.text :nth-child(3) {
+    font-size: 24px;
+    color: white;
+    margin-top: -16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+.image {
+    position: relative;
+    /* width: 20vw; */
+}
+
+.secimg img {
+    width: 500px;
+    position: relative;
+    z-index: -1;
+}
+
+.video-img {
+    width: 555px;
+}
+
+.video {
+    position: absolute;
+    top: 61px;
+    z-index: -1;
+    left: 75px;
+}
+
+/* .mobile{
+    width: 580.328px;
+    height: 435.234;
+    padding-right: 6px;
+} */
+/* .secvideoimg{
+    width: 100%;
+    
+} */
+.secvid {
+    width: 350px;
+    position: absolute;
+    top: 2rem;
+    z-index: -1;
+    left: 6rem;
+}
+
+h2 {
+    font-size: 48px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+
+.hover-btn {
+    border-radius: 0;
+    border: 0;
+    width: 70vw;
+    height: 84px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    text-align: left;
+    background: #2d2d2d;
+    padding: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    transition: 0.2s ease-out;
+}
+
+.hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.hover-btn:hover {
+    background: #414141;
+}
+
+.togle {
+    border-radius: 0;
+    border: 0;
+    width: 70vw;
+    background: #ffffff28;
+    padding: 24px;
+    margin-top: -5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: 0.8s ease-out;
+    opacity: 1;
+    visibility: visible;
+}
+
+.change {
+    opacity: 0;
+    display: none;
+    max-height: 0;
+    visibility: collapse;
+}
+
+h4 {
+    color: white;
+    text-align: left;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+.h3 {
+    font-size: 22px;
+    padding: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+    text-align: center;
+}
+
+.parent-div4 {
+    border-bottom: #333 solid 6px;
+}
+
+.svg-cross {
+    display: none;
+}
+
+.footer-pdiv {
+    height: 20rem;
+    overflow: hidden;
+    width: 100%;
+    border-bottom: #333 solid 6px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-qun {
+    display: flex;
+    justify-content: start;
+}
+
+.info {
+    width: 1172.660px;
+    height: 140px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    grid-gap: 20px;
+}
+
+.footer-txt {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    text-decoration: underline;
+    color: #ffffffb3;
+    text-align: left;
+}
+
+.grid-shift {
+    grid-column-start: 1;
+    width: 133px;
+}

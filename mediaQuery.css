@@ -1,0 +1,119 @@
+@media only screen and (max-width: 375px) {
+  .logo-div img {
+    width: 115px;
+  }
+
+  select {
+    padding-right: calc(0.25rem + 0rem);
+  }
+
+  .nav {
+    justify-content: space-evenly;
+  }
+
+  .btn-signin {
+    margin-right: 5px;
+  }
+
+  .txt-div :nth-child(1) {
+    font-size: 2rem;
+  }
+
+  .gmail input {
+    width: 325px;
+  }
+
+  .video-img {
+    width: 445px;
+  }
+
+  .secvid {
+    left: 80px;
+    width: 280px;
+  }
+
+  .secimg img {
+    width: 500px;
+  }
+
+  .text :nth-child(1) {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .nav {
+    justify-content: space-between;
+  }
+
+  .gmail {
+    flex-direction: column;
+  }
+
+  .txt-div :nth-child(1) {
+    font-size: 2.2rem;
+  }
+
+  .text :nth-child(1) {
+    font-size: 35px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  .hover-btn {
+    font-size: 20px;
+  }
+
+  h4 {
+    font-size: 15px;
+  }
+
+  .gmail input {
+    width: 300px;
+  }
+
+  .info {
+    width: 20rem;
+    height: 140px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+
+  .footer-txt {
+    font-size: 15px;
+  }
+
+  .logo-div img {
+    width: 165px;
+  }
+
+  .btn-signin {
+    margin-right: 14px;
+  }
+
+  .secvid {
+    width: 230px;
+    left: 65px;
+    top: 25px;
+  }
+
+  .video-img {
+    width: 365px;
+  }
+
+  .video {
+    left: 55px;
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .parent-div {
+    flex-direction: column;
+    height: auto;
+  }
+}
